@@ -1,0 +1,32 @@
+
+/* Header */
+
+#header {
+    margin-top: 20px;
+}
+
+.titulo-pag {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/* Nav */
+.logo {
+    width: 90px;
+}
+
+.logo-posicion {
+    width: 30px;
+    margin: auto;
+}
+
+.logo-container {
+ /* Arreglar posicion del nav bar */
+}
+
+.nav-link {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+}

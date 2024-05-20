@@ -7,25 +7,107 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Proyecto</title>
+    <link rel="shortcut icon" href="/imagenes/afa-logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Curiosidades mundialistas</title>
 </head>
 
 <body>
 
+    <!-- Header y nav-->
+    <header class="container" id="header">
 
-    <header class="container">
-
+        <nav class="container">
+            <h1 class="titulo-pag">Curiosidades sobre los campeones del mundo</h1>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid logo-container">
+                    <img src="/imagenes/afa-logo.ico" alt="Logo afa" class="logo animate__animated animate__bounce">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                                <img src="/imagenes/home.png" alt="" class="logo-posicion">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Arqueros</a>
+                                <img src="/imagenes/portero.png" alt="" class="logo-posicion">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Defensores</a>
+                                <img src="/imagenes/defensor.png" alt="" class="logo-posicion">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mediocampistas</a>
+                                <img src="/imagenes/med.png" alt="" class="logo-posicion">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Delanteros</a>
+                                <img src="/imagenes/delantero.png" alt="" class="logo-posicion">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
     </header>
 
+<!-- Main -->
+    <main class="container">
 
-    <nav class="container">
+        <section class="arqueros-container">
+            <h2>Arqueros</h2>
+            <img src="/imagenes/dibu.jpg" alt="Dibu martinez">
+            <h3>Emiliano Martinez</h3>
+            <p>Le dicen 'Dibu' por parecerse a un personaje de una serie de Telefe. El apodo llegó a él cuando ingresó a
+                las inferiores
+                de Independiente. En este equipo, sus compañeros lo compararon con un niño pelirrojo y con pecas del
+                dibujo animado.</p>
+        </section>
 
-    </nav>
+        <section class="defensores-container">
+            <h2>Defensores</h2>
+            <img src="/imagenes/ota.jpg" alt="Nicolas otamendi">
+            <h3>Nicolás Otamendi</h3>
+            <p>Se caracteriza por poseer diversos tatuajes en su espalda que hacen referencia a populares series de
+                televisión. Los rostros que tiene dibujados son: el del mítico
+                guerrero nórdico Ragnar Lothbrok de Vikingos, al profesor y narcotraficante Walter
+                White de Breaking Bad, también al gánster y político Thomas Shelby de Peaky Blinders, a Michael Scofield
+                de Prison Break, y por último a Rick Grimes de The Walking Dead.</p>
+        </section>
 
+        <section class="mediocampistas-container">
+            <h2>Mediocampistas</h2>
+            <img src="/imagenes/enzo.jpeg" alt="Enzo Fernández">
+            <h3>Enzo Fernández</h3>
+            <p>Enzo Fernández es el tercer jugador en TODA LA HISTORIA en ganar la Copa del Mundo y el premio al mejor
+                jugador joven
+                del Mundial. Los únicos dos futbolistas que lo habían logrado son: Pelé, en Suecia 1958, y Kylian
+                Mbappé, en Rusia
+                2018. Pero lo más curioso es que tanto el brasilero como el francés jugaron nuevamente la final del
+                mundo cuatro años
+                más tarde.</p>
+        </section>
 
-    <section class="container">
-
-    </section>
+        <section class="delanteros-container">
+            <h2>Delanteros</h2>
+            <img src="/imagenes/julian.jpg" alt="Enzo Fernández">
+            <h3>Julián Álvarez</h3>
+            <p>De acuerdo con lo expuesto por el comunicador y estadígrafo Gastón Trucco, Maradona (ante los ingleses en
+                México 1986) y
+                Julián (frente a Croacia en Qatar 2022) son los únicos dos argentinos en realizar un gol en una Copa del
+                Mundo habiendo
+                comenzado la jugada con la pelota en su poder en su propia mitad de cancha y sin dar ningún pase hasta
+                meterla adentro
+                del arco oponente.</p>
+        </section>
+    </main>
 
 
     <!-- Formulario -->
@@ -42,7 +124,7 @@
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Tu correo electrónico</label>
             </div>
-            
+            <!-- Edad -->
             <p>Rango de edad:</p>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -50,7 +132,7 @@
                     <p>18-24 años</p>
                 </label>
             </div>
-    
+
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                 <label class="form-check-label" for="flexRadioDefault2">
@@ -80,11 +162,14 @@
                 </label>
             </div>
         </form>
-        <img src="https://www.lanacion.com.ar/resizer/v2/argentina-campeon-del-muindo-oficial-y-IMB4L42ZQZGAFAKNU5DCXWUZOA.JPG?auth=a54d27419ef5207b25f9dd297a371183c49739a650907d1a3320391f93bb7ecd&width=880&height=586&quality=70&smart=true" class="img-fluid" alt="Argentina levantando la copa">
+        <img src="https://www.lanacion.com.ar/resizer/v2/argentina-campeon-del-muindo-oficial-y-IMB4L42ZQZGAFAKNU5DCXWUZOA.JPG?auth=a54d27419ef5207b25f9dd297a371183c49739a650907d1a3320391f93bb7ecd&width=880&height=586&quality=70&smart=true"
+            class="img-fluid" alt="Argentina levantando la copa">
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     <script src="index.js"></script>
 </body>
 
